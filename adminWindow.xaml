@@ -1,0 +1,60 @@
+﻿<Window x:Class="Barhat.adminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Barhat"
+        mc:Ignorable="d"
+        Title="Окно администратора" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Frame Grid.Column="4" Grid.ColumnSpan="10" Grid.RowSpan="12" x:Name="mainFr"/>
+        <Grid Grid.RowSpan="12" Grid.ColumnSpan="4" x:Name="leftMenu" Style="{DynamicResource gridStyle}">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Image Source="C:\Users\Silki\Desktop\шарага\3 к\2 с\уп02\Barhat\Resorces\logl.jpg" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+            <Button Grid.Row="2" Style="{DynamicResource butStyle}" Content="Добавление услуги" Click="add_Click"/>
+            <Button Grid.Row="3" Style="{DynamicResource butStyle}" Content="Редактирование услуги" Click="edit_Click"/>
+            <Button Grid.Row="4" Style="{DynamicResource butStyle}" Content="Удаление услуги" Click="deleteClick"/>
+            <Button Grid.Row="5" Style="{DynamicResource butStyle}" Content="Каталог" Click="ordrsClick"/>
+        </Grid>
+    </Grid>
+</Window>
