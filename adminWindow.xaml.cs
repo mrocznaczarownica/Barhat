@@ -47,5 +47,11 @@ namespace Barhat
             ordersPageAdmin orders = new ordersPageAdmin();
             mainFr.NavigationService.Navigate(orders);
         }
+
+        private void ordersClick1(object sender, RoutedEventArgs e)
+        {
+            ordersPageAdmins ordersPage = new ordersPageAdmins();
+            mainFr.NavigationService.Navigate(ordersPage);
+        }
     }
 }
