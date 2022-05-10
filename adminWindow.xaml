@@ -51,9 +51,9 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Image Source="C:\Users\Silki\Desktop\шарага\3 к\2 с\уп02\Barhat\Resorces\logl.jpg" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
-            <Button Grid.Row="2" Style="{DynamicResource butStyle}" Content="Добавление услуги" Click="add_Click"/>
-            <Button Grid.Row="3" Style="{DynamicResource butStyle}" Content="Редактирование услуги" Click="edit_Click"/>
-            <Button Grid.Row="4" Style="{DynamicResource butStyle}" Content="Удаление услуги" Click="deleteClick"/>
+            <Button Grid.Row="2" Style="{DynamicResource butStyle}" Content="Добавление товара" Click="add_Click"/>
+            <Button Grid.Row="3" Style="{DynamicResource butStyle}" Content="Редактирование товара" Click="edit_Click"/>
+            <Button Grid.Row="4" Style="{DynamicResource butStyle}" Content="Удаление товара" Click="deleteClick"/>
             <Button Grid.Row="5" Style="{DynamicResource butStyle}" Content="Каталог" Click="ordrsClick"/>
             <Button Grid.Row="6" Style="{DynamicResource butStyle}" Content="Заказы" Click="ordersClick1" />
         </Grid>
